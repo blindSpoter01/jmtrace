@@ -4,6 +4,6 @@
 * JDK15
 * ASM9
 # 使用方法
-* 1.将src中的源码打包为javaagent.jar包，注意在选择MF文件时，必须选用src中的MF文件。
-* 2.打包完成后，执行命令行操作
-* java -javaagent:jmtrace-1.0-jar-with-dependencies.jar -jar yourJAR
+1.将src中的源码打包为javaagent.jar包，注意在选择MF文件时，必须选用src中的MF文件。  
+2.打包完成后，执行命令行操作。  
+> java -javaagent:jmtrace-1.0-jar-with-dependencies.jar -jar yourJAR
